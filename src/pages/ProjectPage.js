@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import ProjectList from "../components/ProjectList";
 import { Link } from "react-router-dom";
 
-const ProjectsPage = () => {
+const ProjectPage = () => {
   return (
     <div data-aos="fade-up" data-aos-duration="1500">
       <Container >
@@ -18,4 +18,4 @@ const ProjectsPage = () => {
   )
 }
 
-export default ProjectsPage
+export default ProjectPage;

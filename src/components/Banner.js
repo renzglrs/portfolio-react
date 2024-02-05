@@ -3,6 +3,8 @@ const Banner = () => {
   return (
     <>
         <div className="banner">
+            {/* <img src={require("../img/peep-46.png")} alt="" className="img-fluid" /> */}
+
             <h1 className="display-1 fw-medium">Hello, I'm Renz <i class="bi bi-cup-hot"></i></h1>
             <h2 class="fw-normal">
                 I am a

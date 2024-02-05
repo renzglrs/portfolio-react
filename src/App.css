@@ -5,11 +5,11 @@
   opacity: 0.75;
 }
 
-.project_card {
+/* .project_card {
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-}
+} */
 
 .project_card img {
   width: 100%;

@@ -1,14 +1,23 @@
 const projectsData =[
     {
         id: 1,
-        title: "News Home Page",
-        image: "news-homepage.png"
+        title: "Todo App",
+        image: "todo-app.png",
+        technology: ["React", "HTML", "CSS"],
 
     },
     {
         id: 2,
         title: "Movie App",
-        image: "movie-app.png"
+        image: "movie-app.png",
+        technology: ["React", "HTML", "CSS", "Javascript"],
+
+    },
+    {
+        id: 3,
+        title: "News Home Page",
+        image: "news-homepage.png",
+        technology: ["Bootstrap", "HTML", "CSS"] ,
 
     },
 ]

@@ -1,7 +1,7 @@
 import './App.css';
 import HomePage from './pages/HomePage';
 import ErrorPage from './pages/ErrorPage';
-import ProjectsPage from "./pages/ProjectsPage";
+import ProjectPage from "./pages/ProjectPage";
 import AboutPage from './pages/AboutPage';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -15,7 +15,7 @@ function App() {
     },
     {
       path: "/projects",
-      element: <ProjectsPage />
+      element: <ProjectPage />
     },
     {
       path: "/about",

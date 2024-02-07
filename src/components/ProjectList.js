@@ -10,7 +10,7 @@ const ProjectList = () => {
                 { 
                     projectsData.map(project => { 
                         return (
-                            <Col lg={6} className="mb-5">
+                            <Col lg={6} className="mb-4">
                                 <ProjectCard project={project} /> 
                             </Col>
                         )

@@ -1,15 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800;900&display=swap');
+
+
+
+/*=============== GLOBAL ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*=============== HERO ===============*/
+.hero_image {
+  width: 450px; 
+  height: auto;
+}
 
 /*=============== PROJECTS ===============*/
 
 .btn-link:hover {
-  opacity: 0.75;
-}
-
-/* .project_card {
+  opacity: 0.75;.project_card {
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-} */
+}
+}
 
 .project_card img {
   width: 100%;

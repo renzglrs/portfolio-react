@@ -15,6 +15,13 @@ const projectsData =[
     },
     {
         id: 3,
+        title: "Drum Kit",
+        image: "drum-kit.png",
+        technology: ["HTML", "CSS", "Javascript"] ,
+
+    },
+    {
+        id: 4,
         title: "News Home Page",
         image: "news-homepage.png",
         technology: ["Bootstrap", "HTML", "CSS"] ,

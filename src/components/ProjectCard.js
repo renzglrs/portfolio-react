@@ -2,7 +2,7 @@
 
 const ProjectCard = ({project}) => {
 
-    const image = require("../img/" + project.image);
+    const image = require("../img/projects/" + project.image);
     // const badges = project.technology.map(tech=> {
     //     return <div class="badge bg-secondary text-light rounded-2 p-2 me-1">{tech}</div>
     // })

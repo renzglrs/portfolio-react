@@ -1,4 +1,6 @@
-import { Container } from "react-bootstrap";
+import { Container, Col} from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import ProjectList from "../components/ProjectList";
@@ -33,6 +35,9 @@ const HomePage = () => {
                   Projects <span className="text-primary">.</span>
                 </h2>
                 <ProjectList />
+                <Col className="d-flex justify-content-center">
+                    <Link to="/projects" className="text-decoration-none text-dark">See more <FaArrowRight /></Link>
+                </Col>
           </Container>
         </div>
       </section>

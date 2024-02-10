@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.1d2a8782.css",
-    "main.js": "/portfolio-react/static/js/main.f8118fbb.js",
+    "main.css": "/portfolio-react/static/css/main.ae568f1f.css",
+    "main.js": "/portfolio-react/static/js/main.c7cbd79a.js",
     "static/media/movie-app.png": "/portfolio-react/static/media/movie-app.2dba285d37247f16d08d.png",
     "static/media/news-homepage.png": "/portfolio-react/static/media/news-homepage.c3778cc5a15b50c91a9b.png",
     "static/media/me.png": "/portfolio-react/static/media/me.3866e9578d4029028668.png",
     "static/media/drum-kit.png": "/portfolio-react/static/media/drum-kit.aedf13ba502ad508f827.png",
     "static/media/todo-app.png": "/portfolio-react/static/media/todo-app.f129d0fe55776f603279.png",
     "index.html": "/portfolio-react/index.html",
-    "main.1d2a8782.css.map": "/portfolio-react/static/css/main.1d2a8782.css.map",
-    "main.f8118fbb.js.map": "/portfolio-react/static/js/main.f8118fbb.js.map"
+    "main.ae568f1f.css.map": "/portfolio-react/static/css/main.ae568f1f.css.map",
+    "main.c7cbd79a.js.map": "/portfolio-react/static/js/main.c7cbd79a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d2a8782.css",
-    "static/js/main.f8118fbb.js"
+    "static/css/main.ae568f1f.css",
+    "static/js/main.c7cbd79a.js"
   ]
 }

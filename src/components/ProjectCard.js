@@ -1,11 +1,9 @@
 // import { Container } from 'react-bootstrap';
+import { FaLaptop, FaGithub } from "react-icons/fa";
+
 
 const ProjectCard = ({project}) => {
-
     const image = require("../img/projects/" + project.image);
-    // const badges = project.technology.map(tech=> {
-    //     return <div class="badge bg-secondary text-light rounded-2 p-2 me-1">{tech}</div>
-    // })
     const badges = project.technology.join(", ");
 
 
@@ -17,13 +15,27 @@ const ProjectCard = ({project}) => {
                 <div className="d-flex flex-column justify-content-center align-items-center gap-4 rounded-3 overlay">
                     <h2>{project.title}</h2>
                     <div className="d-flex gap-3">
-                        <a href="https://gloriosorenz.github.io/my-portfolio/" type="button" class="btn btn-dark">
-                            <i class="ri-link"></i>
-                            Live
+                        <a 
+                        href="https://gloriosorenz.github.io/my-portfolio/" 
+                        type="button" 
+                        class="btn btn-dark"
+                        data-bs-toggle="tooltip" 
+                        data-bs-placement="top"
+                        data-bs-title="Open Live Preview."
+                        >
+                            <div className="p-2 d-flex align-items-center fs-1">
+                                <FaLaptop />
+                            </div>
                         </a>
                         <a href="https://github.com/gloriosorenz/my-portfolio" type="button" class="btn btn-dark">
-                            <i class="ri-github-fill"></i>
-                            Github
+                            <div 
+                            className="p-2 d-flex align-items-center fs-1"
+                            data-bs-toggle="tooltip" 
+                            data-bs-placement="top"
+                            data-bs-title="Open Live Preview."
+                            >
+                                <FaGithub />
+                            </div>
                         </a>
                     </div>
                 </div>

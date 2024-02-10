@@ -4,6 +4,10 @@ const projectsData =[
         title: "Todo App",
         image: "todo-app.png",
         technology: ["React", "Vite"],
+        links:{
+            live: "",
+            github: "",
+        }
 
     },
     {
@@ -11,6 +15,10 @@ const projectsData =[
         title: "Movie App",
         image: "movie-app.png",
         technology: ["React"],
+        links:{
+            live: "",
+            github: "",
+        }
 
     },
     {
@@ -18,6 +26,10 @@ const projectsData =[
         title: "Drum Kit",
         image: "drum-kit.png",
         technology: ["HTML", "CSS", "Javascript"] ,
+        links:{
+            live: "",
+            github: "",
+        }
 
     },
     {
@@ -25,6 +37,10 @@ const projectsData =[
         title: "News Home Page",
         image: "news-homepage.png",
         technology: ["HTML", "CSS", "Bootstrap"] ,
+        links:{
+            live: "",
+            github: "",
+        }
 
     },
 ]

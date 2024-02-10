@@ -27,7 +27,7 @@ const Navbar = () => {
                 </nav>
               </div>
               <div className="d-block d-md-none">
-                <LuMenu onClick={handleShow} className="me-4"/>
+                <a className="burger_menu text-dark fs-3"><LuMenu onClick={handleShow} className="me-4"/></a>
 
                 <Offcanvas show={show} onHide={handleClose} placement="end">
                   <Offcanvas.Header closeButton>
@@ -38,7 +38,7 @@ const Navbar = () => {
                       <a class="me-3 py-2 link-body-emphasis text-decoration-none"href="#home">Home</a>
                       <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#projects">Projects</a>
                       <a class="me-3 py-2 link-body-emphasis text-decoration-none"href="#about">About</a>
-                      <a href="./test.html" class="text-decoration-none text-dark"><i class="bi bi-moon"></i></a>
+                      {/* <a href="./test.html" class="text-decoration-none text-dark"><i class="bi bi-moon"></i></a> */}
                     </nav>
                   </Offcanvas.Body>
                 </Offcanvas>

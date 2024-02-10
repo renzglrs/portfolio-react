@@ -15,6 +15,11 @@ body {
 
 
 /*=============== HERO ===============*/
+.burger_menu {
+  cursor: pointer;
+}
+
+/*=============== HERO ===============*/
 .hero_image {
   width: 450px; 
   height: auto;

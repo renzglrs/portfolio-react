@@ -22,7 +22,7 @@ function App() {
       element: <AboutPage />
     },
   ], {
-    basename: '/portfolio-react'
+    basename: '/portfolio-react/'
   })
 
   return (

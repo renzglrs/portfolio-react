@@ -13,6 +13,7 @@ const ProjectPage = () => {
             <h1 className="mb-5 fw-bold">Projects</h1>
             <ProjectList />
           </div>
+          
       </Container>
     </div>
   )

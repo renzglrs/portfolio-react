@@ -21,7 +21,9 @@ function App() {
       path: "/about",
       element: <AboutPage />
     },
-  ])
+  ], {
+    basename: '/portfolio-react'
+  })
 
   return (
     <>

@@ -1,6 +1,7 @@
 import { Row, Col, Offcanvas } from "react-bootstrap";
 import { useState } from "react";
 import { LuMenu } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -18,9 +19,9 @@ const Navbar = () => {
                 <span class="fs-5 text-secondary">RG</span>
               </a>
               <div className="d-none d-md-block">
-                <nav class="d-flex align-items-center mt-2 mt-md-0 ms-md-auto">
-                  <a class="me-3 py-2 link-body-emphasis text-decoration-none"href="#home">Home</a>
-                  <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#projects">Projects</a>
+                <nav class="d-flex align-items-center gap-3 mt-2 mt-md-0 ms-md-auto">
+                  <Link to="/" class="me-3 py-2 link-body-emphasis text-decoration-none">Home</Link>
+                  <Link to="/projects" class="me-3 py-2 link-body-emphasis text-decoration-none">Projects</Link>
                   <a class="me-3 py-2 link-body-emphasis text-decoration-none"href="#about">About</a>
                   <a href="./test.html" class="ms-3 text-decoration-none text-dark"><i class="bi bi-moon"></i></a>
                 </nav>

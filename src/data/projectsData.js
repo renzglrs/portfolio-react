@@ -3,14 +3,14 @@ const projectsData =[
         id: 1,
         title: "Todo App",
         image: "todo-app.png",
-        technology: ["React", "HTML", "CSS"],
+        technology: ["React", "Vite"],
 
     },
     {
         id: 2,
         title: "Movie App",
         image: "movie-app.png",
-        technology: ["React", "HTML", "CSS", "Javascript"],
+        technology: ["React"],
 
     },
     {
@@ -24,7 +24,7 @@ const projectsData =[
         id: 4,
         title: "News Home Page",
         image: "news-homepage.png",
-        technology: ["Bootstrap", "HTML", "CSS"] ,
+        technology: ["HTML", "CSS", "Bootstrap"] ,
 
     },
 ]

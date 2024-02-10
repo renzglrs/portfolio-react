@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
       <Row>
         <Col>
-          <div class="d-flex flex-md-row align-items-center justify-content-between py-5">
+          <div class="d-flex flex-md-row align-items-center justify-content-between pt-5">
               <a href="./" class="d-flex align-items-center link-body-emphasis text-decoration-none">
                 <span class="fs-5 text-secondary">RG</span>
               </a>

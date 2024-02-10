@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.1d2a8782.css",
+    "main.js": "/react-gh-pages/static/js/main.c7417ab1.js",
+    "static/media/movie-app.png": "/react-gh-pages/static/media/movie-app.2dba285d37247f16d08d.png",
+    "static/media/news-homepage.png": "/react-gh-pages/static/media/news-homepage.c3778cc5a15b50c91a9b.png",
+    "static/media/me.png": "/react-gh-pages/static/media/me.3866e9578d4029028668.png",
+    "static/media/me3.png": "/react-gh-pages/static/media/me3.f59e2b4e5668ff2c5bf2.png",
+    "static/media/peep-46.png": "/react-gh-pages/static/media/peep-46.3ea49de2fb187c462f76.png",
+    "static/media/todo-app.png": "/react-gh-pages/static/media/todo-app.f129d0fe55776f603279.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.1d2a8782.css.map": "/react-gh-pages/static/css/main.1d2a8782.css.map",
+    "main.c7417ab1.js.map": "/react-gh-pages/static/js/main.c7417ab1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d2a8782.css",
+    "static/js/main.c7417ab1.js"
+  ]
+}

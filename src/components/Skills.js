@@ -1,9 +1,13 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import { FaHtml5, FaCss3 } from "react-icons/fa";
 
 
 const Skills = () => {
-  return (
+
+    const skills_style = "px-2 my-1 bg-outline-success text-success border border-2 border-success rounded fs-3"
+
+    return (
     <>
         <Row>
             <Col>
@@ -13,7 +17,7 @@ const Skills = () => {
             </Col>
         </Row>
 
-        <Row>
+        {/* <Row>
             <Col sm={4}>
                 <h3>Frontend</h3>
                 <ul className="list-unstyled">
@@ -38,11 +42,41 @@ const Skills = () => {
                     <li>Trello</li>
                 </ul>
             </Col>
+        </Row> */}
+
+
+        <Row>
+            <Col className="skills_wrapper d-flex flex-wrap gap-2">
+                <div className={skills_style}>HTML</div>
+                <div className={skills_style}>CSS</div>
+                <div className={skills_style}>Javascript</div>
+                <div className={skills_style}>React JS</div>
+                <div className={skills_style}>Node JS</div>
+                <div className={skills_style}>Express JS</div>
+                <div className={skills_style}>MongoDB</div>
+                <div className={skills_style}>Git</div>
+                <div className={skills_style}>Postman</div>
+                <div className={skills_style}>SASS</div>
+                <div className={skills_style}>Microsoft Visual Studio Code</div>
+                <div className={skills_style}>Jira</div>
+                <div className={skills_style}>Confluence</div>
+                <div className={skills_style}>Figma</div>
+                <div className={skills_style}>Trello</div>
+            </Col>
         </Row>
+
+        {/* <Row>
+            <Col className="skills_wrapper d-flex flex-wrap gap-2">
+                <div className={skills_style}><FaHtml5 /></div>
+                <div className={skills_style}><FaCss3 /></div>
+            </Col>
+        </Row> */}
+
+
                 
 
     </>
-  )
+    )
 }
 
 export default Skills;

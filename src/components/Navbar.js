@@ -22,7 +22,7 @@ const Navbar = () => {
                 <nav class="d-flex align-items-center gap-3 mt-2 mt-md-0 ms-md-auto">
                   <Link to="/" class="me-3 py-2 link-body-emphasis text-decoration-none">Home</Link>
                   <Link to="/projects" class="me-3 py-2 link-body-emphasis text-decoration-none">Projects</Link>
-                  <a class="me-3 py-2 link-body-emphasis text-decoration-none"href="#about">About</a>
+                  <Link to="/about" class="me-3 py-2 link-body-emphasis text-decoration-none">About</Link>
                   <a href="./test.html" class="ms-3 text-decoration-none text-dark"><i class="bi bi-moon"></i></a>
                 </nav>
               </div>
@@ -34,10 +34,10 @@ const Navbar = () => {
                     <Offcanvas.Title>RG</Offcanvas.Title>
                   </Offcanvas.Header>
                   <Offcanvas.Body>
-                    <nav class="d-flex flex-column align-items-center mt-2 mt-md-0 ms-md-auto">
-                      <a class="me-3 py-2 link-body-emphasis text-decoration-none"href="#home">Home</a>
-                      <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#projects">Projects</a>
-                      <a class="me-3 py-2 link-body-emphasis text-decoration-none"href="#about">About</a>
+                    <nav class="d-flex flex-column align-items-start mt-2 mt-md-0 ms-md-auto fs-3">
+                      <Link to="/portfolio-react" class="me-3 py-2 link-body-emphasis text-decoration-none">Home</Link>
+                      <Link to="/projects" class="me-3 py-2 link-body-emphasis text-decoration-none">Projects</Link>
+                      <Link to="/about" class="me-3 py-2 link-body-emphasis text-decoration-none">About</Link>
                       {/* <a href="./test.html" class="text-decoration-none text-dark"><i class="bi bi-moon"></i></a> */}
                     </nav>
                   </Offcanvas.Body>

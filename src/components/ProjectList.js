@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard"
-import projectsData from "../data/projectsData"
+import projectsData from "../data/data"
 import { Row, Col } from "react-bootstrap"
 
 
@@ -11,7 +11,7 @@ const ProjectList = () => {
                     projectsData.map(project => { 
                         return (
                             <Col lg={6} className="mb-4">
-                                <ProjectCard project={project} /> 
+                                <ProjectCard key={project.id} project={project} /> 
                             </Col>
                         )
                     })

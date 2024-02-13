@@ -3,7 +3,7 @@ import { FaLaptop, FaGithub } from "react-icons/fa";
 
 
 const ProjectCard = ({project}) => {
-    const image = require("../img/projects/" + project.image);
+    const image = require("../assets/img/projects/" + project.image);
     const badges = project.technology.join(", ");
 
 
@@ -16,7 +16,8 @@ const ProjectCard = ({project}) => {
                     <h2>{project.title}</h2>
                     <div className="d-flex gap-3">
                         <a 
-                        href="https://gloriosorenz.github.io/my-portfolio/" 
+                        href={project.links.live} 
+                        target="_blank"
                         type="button" 
                         class="btn btn-dark"
                         data-bs-toggle="tooltip" 
@@ -27,13 +28,16 @@ const ProjectCard = ({project}) => {
                                 <FaLaptop />
                             </div>
                         </a>
-                        <a href="https://github.com/gloriosorenz/my-portfolio" type="button" class="btn btn-dark">
-                            <div 
-                            className="p-2 d-flex align-items-center fs-1"
-                            data-bs-toggle="tooltip" 
-                            data-bs-placement="top"
-                            data-bs-title="Open Live Preview."
-                            >
+                        <a 
+                        href={project.links.github} 
+                        target="_blank"
+                        type="button" 
+                        class="btn btn-dark"
+                        data-bs-toggle="tooltip" 
+                        data-bs-placement="top"
+                        data-bs-title="Open Gitub Repository."
+                        >
+                            <div className="p-2 d-flex align-items-center fs-1">
                                 <FaGithub />
                             </div>
                         </a>

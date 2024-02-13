@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import { skillsData } from '../data/data';
 
 
 const Skills = () => {
@@ -46,21 +47,11 @@ const Skills = () => {
 
         <Row>
             <Col className="skills_wrapper d-flex flex-wrap gap-2">
-                <div className={skills_style}>HTML</div>
-                <div className={skills_style}>CSS</div>
-                <div className={skills_style}>Javascript</div>
-                <div className={skills_style}>React JS</div>
-                <div className={skills_style}>Node JS</div>
-                <div className={skills_style}>Express JS</div>
-                <div className={skills_style}>MongoDB</div>
-                <div className={skills_style}>Git</div>
-                <div className={skills_style}>Postman</div>
-                <div className={skills_style}>SASS</div>
-                <div className={skills_style}>Microsoft Visual Studio Code</div>
-                <div className={skills_style}>Jira</div>
-                <div className={skills_style}>Confluence</div>
-                <div className={skills_style}>Figma</div>
-                <div className={skills_style}>Trello</div>
+                {
+                    skillsData.map((skill) => (
+                        <div className={skills_style}>{skill}</div>
+                    ))
+                }
             </Col>
         </Row>
     </>

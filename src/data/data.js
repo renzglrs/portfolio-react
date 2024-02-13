@@ -38,11 +38,33 @@ const projectsData =[
         image: "news-homepage.png",
         technology: ["HTML", "CSS", "Bootstrap"] ,
         links:{
-            live: "",
-            github: "",
+            live: "https://renzglrs.github.io/news-homepage-fem/",
+            github: "https://github.com/renzglrs/news-homepage-fem",
         }
 
     },
 ]
 
 export default projectsData;
+
+
+const skillsData = [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Git Basics",
+    "Postman",
+    "SASS",
+    "Jira",
+    "Confluence",
+    "Figma",
+    "Trello",
+    "Visual Studio Code",
+    "Microsoft Power Automate"
+];
+
+export { skillsData };

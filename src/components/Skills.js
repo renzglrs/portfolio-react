@@ -1,11 +1,10 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { FaHtml5, FaCss3 } from "react-icons/fa";
 
 
 const Skills = () => {
 
-    const skills_style = "px-2 my-1 bg-outline-success text-success border border-2 border-success rounded fs-3"
+    const skills_style = "px-2 my-1 bg-outline-success text-success border border-success border-2  rounded fs-4"
 
     return (
     <>
@@ -64,17 +63,6 @@ const Skills = () => {
                 <div className={skills_style}>Trello</div>
             </Col>
         </Row>
-
-        {/* <Row>
-            <Col className="skills_wrapper d-flex flex-wrap gap-2">
-                <div className={skills_style}><FaHtml5 /></div>
-                <div className={skills_style}><FaCss3 /></div>
-            </Col>
-        </Row> */}
-
-
-                
-
     </>
     )
 }

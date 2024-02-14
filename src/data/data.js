@@ -27,8 +27,8 @@ const projectsData =[
         image: "drum-kit.png",
         technology: ["HTML", "CSS", "Javascript"] ,
         links:{
-            live: "",
-            github: "",
+            live: "https://renzglrs.github.io/drum-kit/",
+            github: "https://github.com/renzglrs/drum-kit",
         }
 
     },

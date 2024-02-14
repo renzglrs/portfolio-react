@@ -14,16 +14,19 @@ const Navbar = () => {
     <>
       <Row>
         <Col>
-          <div class="d-flex flex-md-row align-items-center justify-content-between pt-5">
-              <a href="./" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-                <span class="fs-5 text-secondary">RG</span>
+          <div className="d-flex flex-md-row align-items-center justify-content-between pt-5">
+              <a href="./" className="d-flex align-items-center link-body-emphasis text-decoration-none">
+                <span className="fs-5 text-secondary">RG</span>
               </a>
               <div className="d-none d-md-block">
-                <nav class="d-flex align-items-center gap-3 mt-2 mt-md-0 ms-md-auto">
-                  <Link to="/" class="me-3 py-2 link-body-emphasis text-decoration-none">Home</Link>
-                  <Link to="/projects" class="me-3 py-2 link-body-emphasis text-decoration-none">Projects</Link>
-                  <Link to="/about" class="me-3 py-2 link-body-emphasis text-decoration-none">About</Link>
-                  <a href="./test.html" class="ms-3 text-decoration-none text-dark"><i class="bi bi-moon"></i></a>
+                <nav className="d-flex align-items-center gap-3 mt-2 mt-md-0 ms-md-auto">
+                  <Link to="/" className="me-3 py-2 link-body-emphasis text-decoration-none">Home</Link>
+                  <Link to="/projects" className="me-3 py-2 link-body-emphasis text-decoration-none">Projects</Link>
+                  <Link to="/about" className="me-3 py-2 link-body-emphasis text-decoration-none">About</Link>
+                  {/* <a href="./test.html" className="ms-3 text-decoration-none text-dark"><i className="bi bi-moon"></i></a> */}
+                  <div className="form-check form-switch">
+                    <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                  </div>
                 </nav>
               </div>
               <div className="d-block d-md-none">
@@ -34,11 +37,14 @@ const Navbar = () => {
                     <Offcanvas.Title>RG</Offcanvas.Title>
                   </Offcanvas.Header>
                   <Offcanvas.Body>
-                    <nav class="d-flex flex-column align-items-start mt-2 mt-md-0 ms-md-auto fs-3">
-                      <Link to="/portfolio-react" class="me-3 py-2 link-body-emphasis text-decoration-none">Home</Link>
-                      <Link to="/projects" class="me-3 py-2 link-body-emphasis text-decoration-none">Projects</Link>
-                      <Link to="/about" class="me-3 py-2 link-body-emphasis text-decoration-none">About</Link>
-                      {/* <a href="./test.html" class="text-decoration-none text-dark"><i class="bi bi-moon"></i></a> */}
+                    <nav className="d-flex flex-column align-items-start mt-2 mt-md-0 ms-md-auto fs-3">
+                      <Link to="/portfolio-react" className="me-3 py-2 link-body-emphasis text-decoration-none">Home</Link>
+                      <Link to="/projects" className="me-3 py-2 link-body-emphasis text-decoration-none">Projects</Link>
+                      <Link to="/about" className="me-3 py-2 link-body-emphasis text-decoration-none">About</Link>
+                      {/* <a href="./test.html" className="text-decoration-none text-dark"><i className="bi bi-moon"></i></a> */}
+                      <div className="form-check form-switch">
+                        <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                      </div>
                     </nav>
                   </Offcanvas.Body>
                 </Offcanvas>
@@ -51,4 +57,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

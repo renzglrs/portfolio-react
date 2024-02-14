@@ -8,7 +8,7 @@ const ProjectPage = () => {
       <Container >
           <div className="vh-100 pt-5">
             <div className="mb-5">
-              <Link to="/" className="btn-link mb-5 text-decoration-none text-dark fs-3"><i class="bi bi-arrow-left"></i> Back</Link>
+              <Link to="/" className="btn-link mb-5 text-decoration-none text-dark fs-3"><i className="bi bi-arrow-left"></i> Back</Link>
             </div>
             <h1 className="mb-5 fw-bold">Projects</h1>
             <ProjectList />

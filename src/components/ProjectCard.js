@@ -9,9 +9,9 @@ const ProjectCard = ({project}) => {
 
     return (
     <>
-        <article class="h-100 d-flex flex-column gap-3">
+        <article className="h-100 d-flex flex-column gap-3">
             <div className="project_card">
-                <img src={image} class="project_img rounded-3" alt="projects"/>
+                <img src={image} className="project_img rounded-3" alt="projects"/>
                 <div className="d-flex flex-column justify-content-center align-items-center gap-4 rounded-3 overlay">
                     <h2>{project.title}</h2>
                     <div className="d-flex gap-3">
@@ -19,7 +19,7 @@ const ProjectCard = ({project}) => {
                         href={project.links.live} 
                         target="_blank"
                         type="button" 
-                        class="btn btn-dark"
+                        className="btn btn-dark"
                         data-bs-toggle="tooltip" 
                         data-bs-placement="top"
                         data-bs-title="Open Live Preview."
@@ -32,7 +32,7 @@ const ProjectCard = ({project}) => {
                         href={project.links.github} 
                         target="_blank"
                         type="button" 
-                        class="btn btn-dark"
+                        className="btn btn-dark"
                         data-bs-toggle="tooltip" 
                         data-bs-placement="top"
                         data-bs-title="Open Gitub Repository."

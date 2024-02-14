@@ -15,8 +15,8 @@ const Navbar = () => {
       <Row>
         <Col>
           <div className="d-flex flex-md-row align-items-center justify-content-between pt-5">
-              <a href="./" className="d-flex align-items-center link-body-emphasis text-decoration-none">
-                <span className="fs-5 text-secondary">RG</span>
+              <a href="./" className="d-flex align-items-center link-body-emphasis text-decoration-none fw-bold">
+                <span className="fs-5 text-secondary">R<span className="text-dark">G</span></span>
               </a>
               <div className="d-none d-md-block">
                 <nav className="d-flex align-items-center gap-3 mt-2 mt-md-0 ms-md-auto">
@@ -34,7 +34,7 @@ const Navbar = () => {
 
                 <Offcanvas show={show} onHide={handleClose} placement="end">
                   <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>RG</Offcanvas.Title>
+                    <Offcanvas.Title className="fw-bold"><span className="fs-5 text-secondary">R<span className="text-dark">G</span></span></Offcanvas.Title>
                   </Offcanvas.Header>
                   <Offcanvas.Body>
                     <nav className="d-flex flex-column align-items-start mt-2 mt-md-0 ms-md-auto fs-3">

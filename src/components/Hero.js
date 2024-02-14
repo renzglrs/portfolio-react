@@ -7,8 +7,8 @@ const Hero = () => {
         <Row className="hero">
           <Col md={6} className="my-5">
             <div className="header_box h-100 d-flex flex-column justify-content-center gap-3 text-start ">
-              <h2 className="fw-light">Hello, I'm Renz 👋</h2>
-              {/* <h2 className="fw-light">Hello, I'm Renz <i className="bi bi-cup-hot"></i></h2> */}
+              {/* <h2 className="fw-light">Hello, I'm Renz 👋</h2> */}
+              <h2 className="fw-light">Hello, I'm Renz <i className="bi bi-cup-hot"></i></h2>
               <h1 className="display-1 fw-bold"><span className="text-primary">Full Stack</span> Web Developer</h1>
               <h5 className="fw-normal">
                   I am a

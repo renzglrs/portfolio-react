@@ -5,9 +5,7 @@ const Experience = () => {
     <>
         <Row>
             <Col>
-                <h2 className="display-2 mb-5 fw-bold">
-                  Experience <span className="text-primary">.</span>
-                </h2>
+                
             </Col>
         </Row>
     </>

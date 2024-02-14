@@ -12,6 +12,17 @@ const projectsData =[
     },
     {
         id: 2,
+        title: "Portfolio Website",
+        image: "portfolio.png",
+        technology: ["React"],
+        links:{
+            live: "https://renzglrs.github.io/portfolio-react/",
+            github: "https://github.com/renzglrs/portfolio-react",
+        }
+
+    },
+    {
+        id: 3,
         title: "Todo App",
         image: "todo-app.png",
         technology: ["React", "Vite"],
@@ -22,7 +33,7 @@ const projectsData =[
 
     },
     {
-        id: 3,
+        id: 4,
         title: "Movie App",
         image: "movie-app.png",
         technology: ["React"],
@@ -33,7 +44,7 @@ const projectsData =[
 
     },
     {
-        id: 4,
+        id: 5,
         title: "Drum Kit",
         image: "drum-kit.png",
         technology: ["HTML", "CSS", "Javascript"] ,
@@ -44,7 +55,7 @@ const projectsData =[
 
     },
     {
-        id: 5,
+        id: 6,
         title: "News Website",
         image: "news-website.png",
         technology: ["HTML", "CSS", "SASS"] ,
@@ -55,7 +66,7 @@ const projectsData =[
 
     },
     {
-        id: 6,
+        id: 7,
         title: "News Home Page",
         image: "news-homepage.png",
         technology: ["HTML", "CSS", "Bootstrap"] ,
@@ -66,7 +77,7 @@ const projectsData =[
 
     },
     {
-        id: 7,
+        id: 8,
         title: "Product Preview",
         image: "product-preview.png",
         technology: ["HTML", "CSS"] ,

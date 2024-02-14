@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import ProjectList from "../components/ProjectList";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
+import Heading from "../components/Heading";
 
 const HomePage = () => {
   return (
@@ -31,9 +32,7 @@ const HomePage = () => {
       <section id="projects_section">
         <div data-aos="fade-up" data-aos-duration="1500" className="h-100 py-5 my-5">
           <Container >
-                <h2 className="display-2 mb-5 fw-bold">
-                  Projects <span className="text-primary">.</span>
-                </h2>
+                <Heading title="Projects" />
                 <ProjectList />
                 <Col className="d-flex justify-content-center">
                     <Link to="/projects" className="text-decoration-none text-dark">See more <FaArrowRight /></Link>
@@ -45,6 +44,7 @@ const HomePage = () => {
       <section id="skills_section">
         <div data-aos="fade-up" data-aos-duration="1500" className="h-100 py-5 my-5">
           <Container>
+            <Heading title="Skills" />
             <Skills />
           </Container>
         </div>
@@ -53,6 +53,7 @@ const HomePage = () => {
       <section id="experience_section">
         <div data-aos="fade-up" data-aos-duration="1500" className="h-100 py-5 my-5">
           <Container>
+            <Heading title="Experience" />
             <Experience />
           </Container>
         </div>

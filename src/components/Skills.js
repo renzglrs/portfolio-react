@@ -9,14 +9,6 @@ const Skills = () => {
 
     return (
     <>
-        <Row>
-            <Col>
-                <h2 className="display-2 mb-5 fw-bold">
-                  Skills <span className="text-primary">.</span>
-                </h2>
-            </Col>
-        </Row>
-
         {/* <Row>
             <Col sm={4}>
                 <h3>Frontend</h3>

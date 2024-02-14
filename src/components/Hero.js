@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="header_box h-100 d-flex flex-column justify-content-center gap-3 text-start ">
               {/* <h2 className="fw-light">Hello, I'm Renz 👋</h2> */}
               <h2 className="fw-light">Hello, I'm Renz <i className="bi bi-cup-hot"></i></h2>
-              <h1 className="display-1 fw-bold"><span className="text-primary">Full Stack</span> Web Developer</h1>
+              <h1 className="display-1 fw-bold"><span className="text-secondary">Full Stack</span> Web Developer</h1>
               <h5 className="fw-normal">
                   I am a
                   <code className="d-inline text-secondary fw-medium"> &lt;Full Stack Web Developer /&gt; </code>

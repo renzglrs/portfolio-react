@@ -30,7 +30,7 @@ const HomePage = () => {
 
 
       <section id="projects_section">
-        <div data-aos="fade-up" data-aos-duration="1500" className="h-100 py-5 my-5">
+        <div data-aos="fade-up" data-aos-duration="1500" className="h-100 pb-5 mb-5">
           <Container >
                 <Heading title="Projects" />
                 <ProjectList />

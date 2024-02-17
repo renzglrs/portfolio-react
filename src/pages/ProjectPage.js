@@ -1,18 +1,23 @@
-import { Container } from "react-bootstrap";
 import ProjectList from "../components/ProjectList";
+import Heading from "../components/Heading";
 import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 
 const ProjectPage = () => {
   return (
     <div data-aos="fade-up" data-aos-duration="1500">
       <Container >
-          <div className="vh-100 pt-5">
-            <div className="mb-5">
-              <Link to="/" className="btn-link mb-5 text-decoration-none text-dark fs-3"><i className="bi bi-arrow-left"></i> Back</Link>
-            </div>
-            <h1 className="mb-5 fw-bold">Projects</h1>
+        <Row className="py-5">
+          <Col>
+            <Link to="/" className="btn-link mb-5 text-decoration-none text-dark fs-3"><i className="bi bi-arrow-left"></i> Back</Link>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Heading title="Projects" />
             <ProjectList />
-          </div>
+          </Col>
+        </Row>
           
       </Container>
     </div>

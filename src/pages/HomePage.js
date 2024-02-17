@@ -53,7 +53,7 @@ const HomePage = () => {
       <section id="experience_section">
         <div data-aos="fade-up" data-aos-duration="1500" className="h-100 py-5 my-5">
           <Container>
-            <Heading title="Experience" />
+            <Heading title="Contact me" />
             <Experience />
           </Container>
         </div>

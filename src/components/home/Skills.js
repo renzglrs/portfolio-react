@@ -41,7 +41,7 @@ const Skills = () => {
             <Col className="skills_wrapper d-flex flex-wrap gap-2">
                 {
                     skillsData.map((skill) => (
-                        <div className={skills_style}>{skill}</div>
+                        <div key={skill} className={skills_style}>{skill}</div>
                     ))
                 }
             </Col>

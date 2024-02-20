@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { skillsData } from '../data/data';
+import { skillsData } from '../../data/data';
 
 
 const Skills = () => {

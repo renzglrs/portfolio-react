@@ -1,6 +1,6 @@
 import { Row, Col } from "react-bootstrap";
-import BannerButton from "./BannerButton";
-import SocialLinks from "./SocialLinks";
+import BannerButton from "../BannerButton";
+import SocialLinks from "../SocialLinks";
 const Hero = () => {
   return (
     <>
@@ -21,7 +21,7 @@ const Hero = () => {
           </Col>
 
           <Col md={6} className="img-box d-flex flex-column justify-content-center align-items-center">
-              <img src={require("../assets/img/me.png")} alt="profile" className="hero_image img-fluid" />
+              <img src={require("../../assets/img/me.png")} alt="profile" className="hero_image img-fluid" />
           </Col>
             
         </Row>

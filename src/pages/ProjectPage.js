@@ -1,4 +1,4 @@
-import ProjectList from "../components/ProjectList";
+import ProjectList from "../components/projects/ProjectList";
 import Heading from "../components/Heading";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";

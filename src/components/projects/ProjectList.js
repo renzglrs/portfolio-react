@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard"
-import projectsData from "../data/data"
+import projectsData from "../../data/data"
 import { Row, Col } from "react-bootstrap"
 
 

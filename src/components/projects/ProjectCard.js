@@ -3,7 +3,7 @@ import { FaLaptop, FaGithub } from "react-icons/fa";
 
 
 const ProjectCard = ({project}) => {
-    const image = require("../assets/img/projects/" + project.image);
+    const image = require("../../assets/img/projects/" + project.image);
     const badges = project.technology.join(", ");
 
 
@@ -18,6 +18,7 @@ const ProjectCard = ({project}) => {
                         <a 
                         href={project.links.live} 
                         target="_blank"
+                        rel="noreferrer"
                         type="button" 
                         className="btn btn-dark"
                         data-bs-toggle="tooltip" 
@@ -31,6 +32,7 @@ const ProjectCard = ({project}) => {
                         <a 
                         href={project.links.github} 
                         target="_blank"
+                        rel="noreferrer"
                         type="button" 
                         className="btn btn-dark"
                         data-bs-toggle="tooltip" 

@@ -46,14 +46,14 @@ const Contact = () => {
                                 <Col>
                                     <div className="mb-3">
                                         <label htmlFor="from_name" className="form-label"><h3>Name</h3></label>
-                                        <input type="text" className="form-control" id="from_name" name="from_name" placeholder="Your name" required/>
+                                        <input type="text" className="form-control form-control-lg" id="from_name" name="from_name" placeholder="Your name" required/>
                                     </div>
 
                                 </Col>
                                 <Col>
                                     <div className="mb-3">
                                         <label htmlFor="reply_to" className="form-label"><h3>Email address</h3></label>
-                                        <input type="email" className="form-control" id="reply_to" name="reply_to" placeholder="Your email" required/>
+                                        <input type="email" className="form-control form-control-lg" id="reply_to" name="reply_to" placeholder="Your email" required/>
                                     </div>
                                 </Col>
                             </Row>
@@ -61,7 +61,7 @@ const Contact = () => {
                                 <Col>
                                     <div className="mb-3">
                                         <label htmlFor="message" className="form-label"><h3>Send me a message</h3></label>
-                                        <textarea className="form-control" id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                                        <textarea className="form-control form-control-lg" id="message" name="message" rows="5" placeholder="Your message" required></textarea>
                                     </div>
                                     <div className="mb-3">
                                         <input type="submit" value="Send" className="btn btn-lg btn-dark mb-3 w-100" />
